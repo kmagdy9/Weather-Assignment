@@ -1,0 +1,232 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.card{
+    border: none;
+}
+/**********************************Navigation CSS******************************/
+.navigation .navbar-brand h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px ;
+    font-weight: 700;
+ }
+ .navigation .navbar-brand small{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px ;
+    font-weight: 300;
+    color: #BFC1C8;
+ }
+ 
+ .navigation .nav-item{
+    margin-right: 20px !important;
+ }
+ 
+ 
+ .navigation .nav-item .active{
+    color: #009AD8;
+    text-align: center;
+    border-radius: 40%;
+    border: 2px solid #009AD8;
+    
+ }
+ 
+ .navigation .nav-item a{
+    color: white;
+    cursor: pointer;
+    /* transition: 0.5s; */
+ }
+ .navigation .nav-item a:hover{
+ 
+    color: #009AD8;
+    text-align: center;
+    border-radius: 40%;
+    border: 2px solid #009AD8;
+ }
+
+/*********************************Body CSS*************************/
+
+#body{
+
+    /* background-color: #009AD8;
+    background-image: url("../images/banner.png");
+    background-position: center center;
+    background-size: cover; */
+    /* height: 60dvh; */
+    
+    background:#1E202B url("../images/banner.png") repeat-x;
+    background-size: 50% contain;
+     
+    
+    
+    padding: 100px 0;
+}
+
+#body .container .search{
+    position: relative;
+}
+#body .container .search input{
+    background-color: #1E202B;
+    border: none;
+    color: white;
+   
+}
+#body .container .search input::placeholder{
+
+    color: #757570;
+   
+}
+
+
+#body .container .search a{
+
+    background-color: #009AD8;
+    color: white;
+    padding: 10px 30px;
+    position: absolute;
+    right: 167px;
+    top: 5px;
+}
+
+
+#body .container .weather-data .header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2D303D;
+    color: #BFC1C8;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#body .container .weather-data .header1{
+    font-family: 'Roboto', sans-serif;
+    background-color: #222530;
+    color: #BFC1C8;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#body .container .weather-data .card-body p{
+
+    font-family: 'Roboto', sans-serif;
+    color: #BFC1C8;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#body .container .weather-data .card-body h1{
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+#body .container .weather-data .middle-card img{
+    padding-top: 28px;
+}
+#body .container .weather-data .last-card img{
+    padding-top: 28px;
+}
+
+#body .container .weather-data .card-body i{
+    color: #8A8B91;
+    font-size: 20px;
+}
+
+#body .container .weather-data .card-body{
+    background-color: #323544;
+}
+
+#body .container .weather-data .middle-card{
+    background-color: #262936;
+}
+
+#body .container .weather-data .card-body .forecast{
+
+    font-family: 'Roboto', sans-serif;
+    color: #009AD8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#body .container .weather-data .card-body .max-temp{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px ;
+    font-weight: 700;
+    color: white;
+}
+
+#body .container .weather-data .card-body .low-temp{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px ;
+    font-weight: 300;
+    color: #BFC1C8;
+}
+
+
+
+/*********************************************************/
+#layer{
+    height: 30dvh;
+    background-color: #1E202B;
+}
+
+
+
+/****************************************************************/
+
+#footer{
+    background-color:#262936;
+}
+
+#footer .subscribe {
+    position: relative;
+   
+ }
+ 
+ #footer .subscribe #searchInput{
+     background-color: #1E202B;
+     border: none;
+     color: white;
+     position: relative;
+ }
+ #footer .subscribe ::placeholder{
+     color: #757575;
+ }
+ #footer .subscribe a  {
+     
+     color: white;
+     background-color: #009AD8;
+     border: none;
+     padding: 10px 30px;
+     position: absolute;
+     right: 220px;
+     top:5px;
+ }
+
+ #footer i{
+    background-color: #1E202B;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #009AD8;
+    transition: 0.5s;
+ }
+
+ #footer i:hover{
+    background-color: #009AD8;
+    color: white;
+ }
+
+ #footer p{
+    color: #BFC1C8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+ }
